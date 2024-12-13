@@ -1,0 +1,47 @@
+go in the folder then press ctrl+l & copy path of folder then press cmd after that press enter key
+
+npm start
+
+npm install react-router-dom
+
+npm install font-awesome
+
+npm install jquery
+
+npm i bootstrap@5.0.0-alpha1
+
+=============================================
+after design for live website
+go in package.json
+"name": "startupholic";
+"homepage": "https://abc.com/";
+npm run build
+=============================================
+
+=============================================
+install node.js
+=============================================
+window +r = cmd
+=============================================
+npx create-react-app my-app
+npx create-react-app (--folder_name)
+
+
+D:\react-folder (write cmd)
+
+npm start
+=============================================
+
+
+=============================================
+How do I install owl carousel in react?
+import React,{Component} from 'react';
+import OwlCarousel from 'react-owl-carousel';
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
+import './owl.css';
+export class Owldemo1 extends Component {
+render()
+{
+}
+=============================================
