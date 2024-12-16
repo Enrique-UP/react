@@ -59,7 +59,7 @@ function FormReact() {
           value={formik.values.user_name} 
           onBlur={formik.handleBlur} 
           onChange={formik.handleChange} 
-          title="Name must contain only alphabets."
+          title="Name must be at least 3 characters."
         /><br />
         {formik.errors.user_name && formik.touched.user_name && <small>{formik.errors.user_name}</small>}<br />
 
