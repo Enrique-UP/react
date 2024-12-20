@@ -19,7 +19,7 @@ const App = () => {
           <Redirect to="/" />
         </Switch>
         <Footer />
-        </ScrollToTop>
+      </ScrollToTop>
     </Router>
   );
 }

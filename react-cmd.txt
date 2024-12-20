@@ -2,6 +2,15 @@ https://www.youtube.com/watch?v=RUku45vpSDU
 ===========================================
 for react 
 npx create-react-app app
+
+
+if get issue
+npm install --save-dev web-vitals
+
+Go to index.js file and delete these 2:-
+
+import reportWebVitals from './reportWebVitals';
+reportWebVitals();
 ===========================================
 npm i react-router-dom@5.2.0
 npm uninstall react-router-dom

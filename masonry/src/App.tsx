@@ -28,7 +28,7 @@ const App = () => {
   return (
     <>
       <ul>
-        <li onClick={handleFilterKeyChange("*")}>Show Both</li>
+        <li onClick={handleFilterKeyChange("*")}>Show All</li>
         <li onClick={handleFilterKeyChange("vege")}>Show Veges</li>
         <li onClick={handleFilterKeyChange("fruit")}>Show Fruits</li>
       </ul>
