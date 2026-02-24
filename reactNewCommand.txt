@@ -1,0 +1,30 @@
+=============================================================
+for instant remove node_modules
+Remove-Item -Recurse -Force node_modules
+=============================================================
+Remove-Item package-lock.json
+=============================================================
+npm cache clean --force
+=============================================================
+npm install --legacy-peer-deps
+=============================================================
+npm list react-scripts
+=============================================================
+npm install react-scripts@5.0.1 --save --legacy-peer-deps
+=============================================================
+Start Old version of react in new version npm.
+
+npm install react-scripts@5.0.1 --save --legacy-peer-deps
+npx react-scripts start
+npx --ignore-existing react-scripts start
+npm install
+npm start
+
+--------------------
+If it is fail
+--------------------
+npx create-react-app new-app
+Copy your src and public folders into new app.======
+npm start
+npx react-scripts start
+=============================================================
