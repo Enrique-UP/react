@@ -23,17 +23,17 @@ const Contact = () => {
                         <div className="row">
                             <div className="col-12">
                                 <div className="row">
-                                <div className="col-12">
-                                    <div className="row">
-                                        <div className="col-12" onClick={props.link}>
-                                            <p>{props.text}</p>
-                                        </div>
-                                        <div className="col-12">
-                                            <a onClick={(e) => {e.target.closest(".container").classList.toggle("active")}}>{props.text} Click here...</a>
+                                    <div className="col-12">
+                                        <div className="row">
+                                            <div className="col-12" onClick={props.link}>
+                                                <p>{props.text}</p>
+                                            </div>
+                                            <div className="col-12">
+                                                <a onClick={(e) => {e.target.closest(".container").classList.toggle("active")}}>{props.text} Click here...</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
                             </div>
                         </div>
                     </div>
