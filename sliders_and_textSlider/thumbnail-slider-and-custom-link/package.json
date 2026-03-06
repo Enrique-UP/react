@@ -7,7 +7,7 @@
     "react",
     "react-responsive-carousel"
   ],
-  "homepage": "https://codesandbox.io/s/new",
+  "homepage": "",
   "main": "src/index.js",
   "dependencies": {
     "react": "^18.2.0",
