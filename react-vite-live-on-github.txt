@@ -1,0 +1,22 @@
+=============================================11111
+npm install gh-pages --save-dev
+=============================================22222
+vite.config.js
+----------------------------
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+export default defineConfig({
+  plugins: [react()],
+  base: '/port/'   // IMPORTANT
+})
+=============================================33333
+package.json
+----------------------------
+"homepage": "https://enrique-up.github.io/port/", // IMPORTANT
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+}
+=============================================44444
+npm run deploy
