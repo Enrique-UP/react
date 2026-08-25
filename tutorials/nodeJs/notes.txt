@@ -1,0 +1,21 @@
+node --version
+npm --version
+npm init
+npm i express
+npm i
+npm i -g nodemon
+
+npm install --save-dev nodemon
+only save in developtment time
+
+npm uninstall --save-dev nodemon
+npm un express
+
+PS C:\Users\noman.na\Downloads\plgs\nodeJs> node index.js
+
+
+os modules
+path modules
+file system modules
+commonjs modules
+ecma script modules
