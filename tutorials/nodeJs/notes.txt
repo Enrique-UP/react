@@ -1,3 +1,14 @@
+https://www.youtube.com/watch?v=BLl32FvcdVM
+
+https://nodejs.org/docs/latest/api/
+
+For learning node js
+https://nodejs.org/learn
+
+
+https://www.codewithharry.com/blogpost/deploy-nodejs-app-on-ubuntu
+
+
 node --version
 npm --version
 npm init
@@ -9,6 +20,7 @@ npm install --save-dev nodemon
 only save in developtment time
 
 npm uninstall --save-dev nodemon
+npm i express
 npm un express
 
 PS C:\Users\noman.na\Downloads\plgs\nodeJs> node index.js
@@ -18,4 +30,11 @@ os modules
 path modules
 file system modules
 commonjs modules
-ecma script modules
+ecma script modules (import)
+url modules
+
+
+For automatic visible changes on browser when changed in exist file.
+After installation of nodemon
+run below command in vs terminal
+PS C:\Users\noman.na\Downloads\plgs\nodeJs> nodemon website.js
