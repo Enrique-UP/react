@@ -1,0 +1,11 @@
+https://www.youtube.com/watch?v=FN0Hm7MMecQ
+
+
+Goto backend Folder =>
+    npm init -y
+    npm i express cors dotenv mongoose
+
+
+
+
+Goto frontend Folder =>    
