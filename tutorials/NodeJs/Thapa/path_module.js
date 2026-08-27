@@ -24,4 +24,4 @@ console.log(extnamePath);
 console.log(basenamePath);
 console.log(dirnamePath);
 console.log("=======================");
-console.log({parsePath, resolvePath, extnamePath, basenamePath, dirnamePath});
+console.log({parsePath, resolvePath, extnamePath, basenamePath, dirnamePath, separator:path.sep});
