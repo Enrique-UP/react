@@ -1,0 +1,33 @@
+https://www.youtube.com/watch?v=FN0Hm7MMecQ
+
+Goto backend Folder =>
+    npm init -y
+    npm i express cors dotenv mongoose
+
+npm install mongodb-memory-server
+
+https://account.mongodb.com/account/login
+SignUped on this website
+
+Goto frontend Folder =>    
+
+thunder client
+http://localhost:5001/api/auth/signup
+node --watch server.js
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Vinod Bahadur Thapa
+https://www.youtube.com/watch?v=QTicSKy9Qgk&list=PLwGdqUZWnOp3KELplHtc-RnJ5xTUPqdgH&index=6
+-------------------------------------------------
+REPL => Read Eval Print Loop
+In the JS window/document but in Node global is here.
+globalThis in Node property.
+
+React - Components
+Node - Modules
+
+Did you know that JavaScript behaves differently in the browser and in Node.js ?
+Like
+window.document / document => same output in js but this is not work in node js.
+Node has global property.
