@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Javascript Arrow Functions</title>
+<title>Javascript</title>
 <style type="text/css">
     *{padding:0;margin:0;box-sizing: border-box;}
     body{padding:50px;}
@@ -11,23 +11,10 @@
 </head>
 <body>
 <h1>Spread & Rest Operators</h1>
-<h1>Spread Operators</h1>
-<p>
-    const numbers = [1, 2, 3];<br>
-    const newnumbers = [...numbers, 4];<br>
-    console.log(newnumbers);
-</p><br><br>
-<h1>Rest Operators</h1>
-<p>
-    const filter = (...args) => {<br>
-        return args.filter(el => el === 1);<br>
-    }<br>
-    console.log(filter(1, 2, 3));
-</p><br><br>
-<script type="text/javascript">
+<pre>
     const numbers = [1, 2, 3];
     const newnumbers = [...numbers, 4];
-    console.log(newnumbers);
+    console.log(newnumbers); // [ 1, 2, 3, 4 ]
 
 
 
@@ -38,14 +25,38 @@
         ...person,
         age: 28
     }
-    console.log(nperson);
+    console.log(nperson); // { name: "Max", age: 28 }
 
 
 
     const filter = (...args) => {
         return args.filter(el => el === 1);
     }
-    console.log(filter(1, 2, 3));
+    console.log(filter(1, 2, 3)); // [ 1 ]
+</pre>
+
+<script type="text/javascript">
+    const numbers = [1, 2, 3];
+    const newnumbers = [...numbers, 4];
+    console.log(newnumbers); // [ 1, 2, 3, 4 ]
+
+
+
+    const person = {
+        name: "Max"
+    };
+    const nperson = {
+        ...person,
+        age: 28
+    }
+    console.log(nperson); // { name: "Max", age: 28 }
+
+
+
+    const filter = (...args) => {
+        return args.filter(el => el === 1);
+    }
+    console.log(filter(1, 2, 3)); // [ 1 ]
 </script>
 </body>
 </html>

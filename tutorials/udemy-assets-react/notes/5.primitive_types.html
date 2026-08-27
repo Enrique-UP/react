@@ -11,26 +11,32 @@
 </head>
 <body>
 <h1>Primitive Types</h1>
-<p>
-    const person = {<br>
-        name: "Max"<br>
-    };<br>
-    const sperson = {<br>
-        ...person<br>
-    };<br>
-    person.name = "Manu";<br>
-    console.log(sperson);
-</p><br><br>
-
-<script type="text/javascript">
+<pre>
     const person = {
-        name: "Max"
+        name: "Max", 
+        age: 40
     };
     const sperson = {
         ...person
     };
     person.name = "Manu";
-    console.log(sperson);
+    console.log(sperson); // { name: "Max", age: 40 }
+    console.log(sperson.name); // Max
+    console.log(person.name); // Manu
+</pre>
+
+<script type="text/javascript">
+    const person = {
+        name: "Max", 
+        age: 40
+    };
+    const sperson = {
+        ...person
+    };
+    person.name = "Manu";
+    console.log(sperson); // { name: "Max", age: 40 }
+    console.log(sperson.name); // Max
+    console.log(person.name); // Manu
 </script>
 </body>
 </html>
