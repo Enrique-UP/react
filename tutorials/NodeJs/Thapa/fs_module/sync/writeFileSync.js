@@ -1,7 +1,7 @@
 // https://nodejs.org/docs/latest/api/fs.html
 // File System (FS Module) => Read, Write, Update, Delete, Rename, Append
 
-// fs.writeFileSync() : Writes data to a file. If the file does not exist, it will be created. If the file exists, it overwrites the ContentVisibilityAutoStateChangeEvent.
+// fs.writeFileSync() : Writes data to a file. If the file does not exist, it will be created. If the file exists, it overwrites the content.
 
 // syntax: fs.writeFileSync(filePath, data, option);
 // filePath: The file path to write to.
@@ -15,9 +15,9 @@ const fileName = "writeFileSync.txt";
 const filePath = path.join(__dirname, fileName);
 console.log("__dirname => ", filePath);
 
-// const writeFile = fs.writeFileSync(fileName, "This is the initial data.", "utf-8");
-// console.log("Write File => ", writeFile);
+const writeFile = fs.writeFileSync(fileName, "This is the initial data.", "utf-8");
+console.log("Write File => ", writeFile);
 
 // const writeFile1 = fs.writeFileSync(filePath, "This is the initial data, updated.", "utf-8");
-const writeFile1 = fs.writeFileSync(filePath, "This is the initial data, updated1."); //  without utf-8
-console.log("Write File1 => ", writeFile1);
+// const writeFile1 = fs.writeFileSync(filePath, "This is the initial data, updated1."); //  without utf-8
+// console.log("Write File1 => ", writeFile1);
