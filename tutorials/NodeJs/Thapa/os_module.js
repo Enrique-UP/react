@@ -1,4 +1,4 @@
-// https://nodejs.org/docs/latest/api/path.html
+// https://nodejs.org/docs/latest/api/os.html
 
 const os = require("os");
 console.log("Platform = ", os.platform());
