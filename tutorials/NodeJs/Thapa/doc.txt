@@ -37,3 +37,4 @@ File => Read
 Folder => Create
 Folder => Rename
 -------------------------------------------------
+API => Application Programming Interface
