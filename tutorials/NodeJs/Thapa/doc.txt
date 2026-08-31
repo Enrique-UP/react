@@ -23,6 +23,10 @@ or
 node --watch http_server_module.js
 -------------------------------------------------
 rmdir node_modules
+npm outdated
+npm update / npm update express
+npm remove express / npm uninstall/un express
+npm i express@4.0.0
 -------------------------------------------------
 Till now we have covered...
 File => Create
