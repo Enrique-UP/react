@@ -15,7 +15,9 @@ Like
 window.document / document => same output in js but this is not work in node js.
 Node has global property.
 
-
+-------------------------------------------------
+npm init -y
+npm i nodemon
 -------------------------------------------------
 Till now we have covered...
 File => Create
