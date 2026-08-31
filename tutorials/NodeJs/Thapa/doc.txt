@@ -22,7 +22,7 @@ nodemon http_server_module.js
 or
 node --watch http_server_module.js
 -------------------------------------------------
-
+rmdir node_modules
 -------------------------------------------------
 Till now we have covered...
 File => Create
