@@ -29,7 +29,7 @@ https.get(url, (response) => {
                 const rate = rates[currency.toUpperCase()];
                 if (rate) {
                     console.log(`${amount} USD is approximately ${convertCurrency(amount, rate)} ${currency}`);
-                }else{
+                } else {
                     console.log(`Invalid currency code.`);
                 }
                 rl.close();
