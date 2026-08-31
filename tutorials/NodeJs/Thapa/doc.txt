@@ -18,6 +18,11 @@ Node has global property.
 -------------------------------------------------
 npm init -y
 npm i nodemon
+nodemon http_server_module.js
+or
+node --watch http_server_module.js
+-------------------------------------------------
+
 -------------------------------------------------
 Till now we have covered...
 File => Create
