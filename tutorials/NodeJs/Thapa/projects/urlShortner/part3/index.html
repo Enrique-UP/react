@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+<h1>URL Shortener</h1>
+<form id="form">
+    <label for="url">Enter URL:</label>
+    <br>
+    <input type="url" name="url" id="url" required />
+    <br><br>
+    <label for="shortCode">Enter URL:</label>
+    <br>
+    <input type="text" name="shortCode" id="shortCode" required />
+    <br>
+    <span>Same short code will not be submit.</span>
+    <br><br>
+    <button type="submit">Shorten</button>
+</form>
+<h2>Shortener URLs</h2>
+<ul id="shortener-urls"></ul>
+
+<script>
+    document.getElementById('form').addEventListener('submit', async (event) => {
+        event.preventDefault();
+
+        const formData = new FormData(event.target);
+        const url = formData.get('url');
+        const shortCode = formData.get('shortCode');
+        console.log(url, shortCode);
+        try{
+            const response = await fetch('/shorten', {
+                method : 'POST',
+                headers : {'Content-Type': 'application/json'},
+                body : JSON.stringify({url, shortCode})
+            });
+            if(response.ok){
+                alert('Form submitted successfully');
+                event.target.reset();
+            }else{
+                const erroMessage = await response.text();
+                alert(erroMessage);
+            }
+        }catch(error){
+            console.error('Network Error: ', error);
+            alert('Something went wrong!');
+        }
+    });
+</script>
+</body>
+</html>
