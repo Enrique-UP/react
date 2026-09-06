@@ -1,0 +1,17 @@
+npm init -y
+=> Now package.json has created.
+=> Open package.json
+=> Replace with this below code
+
+"scripts": {
+    "dev": "node --watch app.js",
+    "start": "node app.js"
+},
+
+node --watch app.js
+OR
+npm run dev
+
+
+
+https://dashboard.render.com/
