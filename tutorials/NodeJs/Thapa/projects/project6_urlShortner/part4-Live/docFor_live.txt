@@ -12,6 +12,8 @@ node --watch app.js
 OR
 npm run dev
 
+Go to terminal => 
+git add .
 
 
 https://dashboard.render.com/
