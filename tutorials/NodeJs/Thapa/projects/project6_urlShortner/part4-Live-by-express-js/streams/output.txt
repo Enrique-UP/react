@@ -1,0 +1,6 @@
+1file => 2file
+This is a example file.
+We are learning about streams in Node.js.
+Lorem ipsum dolor sit ameet.
+Let's process this file in chunks of the 16 bytes.
+Hello! Newone file.

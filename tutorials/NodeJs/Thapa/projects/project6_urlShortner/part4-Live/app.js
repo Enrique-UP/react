@@ -3,7 +3,8 @@ import { createServer } from 'http';
 import crypto from 'crypto';
 import path from 'path';
 
-const PORT = 3002;
+// const PORT = 3002;
+const PORT = process.env.PORT || 3002;
 // const DATA_FILE = path.join('/', 'links.json');
 const DATA_FILE = path.join(process.cwd(), 'links.json');
 
