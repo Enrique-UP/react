@@ -1,0 +1,23 @@
+Create beginning node project
+	create 4 page, home, about us, blog, contact us (in .html)
+	create server by express js
+	create route
+	includes header, footer etc and change title of all pages dynamically
+
+------------------------------------------------------------------
+
+Create simple node project
+	
+	Create server by express js
+	Use mangoDB
+	Create json data file by filling details by form (with image upload)
+	Edit json data 
+	Delete json data
+	Display cart by json data
+	Choose favorite json data
+	
+	Create pages with (node/react this is a question here) router
+	
+	Include all common sections like header, footer etc
+	
+	.html se .ejs ka dynamic (include file) kerne ke liye hota hai use

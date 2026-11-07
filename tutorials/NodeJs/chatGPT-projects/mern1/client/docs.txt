@@ -1,0 +1,8 @@
+cd ..
+cd client
+npm create vite@latest . -- --template react
+
+npm install
+npm install react-router-dom axios
+
+npm run dev

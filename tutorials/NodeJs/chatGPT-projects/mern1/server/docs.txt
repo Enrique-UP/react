@@ -1,0 +1,12 @@
+cd server
+npm init -y
+npm install express mongoose cors dotenv
+npm install --save-dev nodemon
+
+Go to package.json page and replace below code
+"scripts": {
+  "start": "node server.js",
+  "dev": "nodemon server.js"
+}
+
+npm run dev

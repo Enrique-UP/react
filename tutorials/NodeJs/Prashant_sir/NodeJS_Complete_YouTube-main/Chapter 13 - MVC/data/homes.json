@@ -1,0 +1,6 @@
+[
+    {"houseName":"Utsav House","price":"1299","location":"Ghaziabad","rating":"4.1","photoUrl":""},
+    {"houseName":"Second House","price":"999","location":"Ghaziabad","rating":"4.2","photoUrl":""},{"houseName":"Ujhani House","price":"1500","location":"Ujhani","rating":"4.9","photoUrl":""},
+    {"houseName":"Qamar House","price":"2000","location":"Ujhani","rating":"4.5","photoUrl":""},
+    {"houseName":"Laiq House","price":"1000","location":"Budaun","rating":"3.5","photoUrl":""}
+]
